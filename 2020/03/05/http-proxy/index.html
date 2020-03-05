@@ -198,12 +198,41 @@
 
 
 
+<div class="comments">
+    <div id="comments"></div>
+    <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+    <script>
+    new Gitalk({
+        clientID: "86c8d9396f6c79361971",
+        clientSecret: "d7eb5314929a142f7d02a22f25239a2ffb2f5317",
+        repo: "hongfuli.github.io",
+        owner: "hongfuli",
+        admin: ["hongfuli"],
+        id: "2020/03/05/http-proxy",
+        distractionFreeMode: true,
+        title: "HTTP代理服务",
+        body: "http://yoursite.com/2020/03/05/http-proxy/",
+        labels: ["network","http代理"]
+    }).render('comments');
+    </script>
+</div>
+
 
             </div>
         </div>
         <footer class="footer">
     Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>, Theme by <a href="https://github.com/sanonz/hexo-theme-concise" target="_blank">Concise</a>
 
+    
+    <script>
+        var _hmt = _hmt || [];
+        (function () {
+            var hm = document.createElement("script");
+            hm.src = "https://hm.baidu.com/hm.js?f8cf95f84c92ed382bdd5aa15e6492e4";
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(hm, s);
+        })();
+    </script>
     
 </footer>
 
